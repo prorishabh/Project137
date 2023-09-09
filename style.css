@@ -1,0 +1,41 @@
+body
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin-top: 0px;
+}
+
+p
+{
+    color: black;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+#start,#object_found,#status
+{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#input_id:hover
+{
+    width: 15%;
+    height: 3%;
+    background-color: red;
+    border: 3px dashed yellow;
+}
+
+canvas
+{
+    box-shadow: 7px 7px 7px white;
+    border-radius: 20px;
+    background-color: red;
+}
